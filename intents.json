@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["HI","Hello","Hey","Good morning","Good evening"],
+            "responses": ["Hello!","How can i help you today?","Hi there! what can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye","See you later","Goodbye"],
+            "responses": ["Goodbye! have a great day!","See you soon!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks","Thank you","Thanks a lot"],
+            "responses": ["You're welcome!","Happy to help!","Anytime!"]
+        },
+        {
+            "tag": "fees_query",
+            "patterns": ["What is my fee status?","Have I paid my fees?","Tell me about my fee dues"],
+            "responses": ["You have no dues currently.","Your pending fees amount is 5000."]
+        },
+        {
+            "tag": "attendance",
+            "patterns": ["How is my attendance?","Show my attendance","Did I attend my classes last week?"],
+            "responses": ["Your attendance is 85% for this semester.","You have 3 absences in the last month."]
+        },
+        {
+            "tag": "timetable",
+            "patterns": ["Show my timetable","What are my classes today?","Do I have Math today?"],
+            "responses": ["You have Math at 10 AM and Science at 12 PM.","Check your portal for the latest timetable."]
+        },
+        {
+            "tag": "exam shedule",
+            "patterns": ["When are my exams?","Show my exam dates","Is there any test tomorrow?"],
+            "responses": ["Your next exam is on 5th July - Science","Your exams start from 1st July."] 
+        },
+        {
+            "tag": "holiday",
+            "patterns": ["Is tomorrow a holiday?","What holidays are coming?","Tell me about upcoming holidays"],
+            "responses": ["Tomorrow is a working day.","Next holiday is on 15th August for Independence Day."]
+        },
+        {
+            "tag": "contact_teacher",
+            "patterns": ["How can I contact my teacher?","I want to talk to my teacher","Email my math teacher"],
+            "responses":["You can email your teacher via the student pportal","Contact details are available in your dashboard."]
+        },
+        {
+            "tag":"school_rules",
+            "patterns":["What are the school rules?","Tell me about the dress code","Is phone allowed?"],
+            "responses":["Phones are not allowed during school hours.School uniform is mandatory.","Follow the code of conduct as per the rules." ]
+        }
+    ]
+}
