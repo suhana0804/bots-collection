@@ -116,7 +116,7 @@ The project demonstrates concepts such as:
 - `quiz_bot.py`
 - `Chatbot.py`
 - `intents.json`
-- chatbot_streamlit.py
+- `chatbot_streamlit.py`
 
 ## How to Run
 
