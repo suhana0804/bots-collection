@@ -62,13 +62,13 @@ The chatbot stores conversation history during the session and displays response
 
 ## How to Run
 
-Install Streamlit:
+  Install Streamlit:
 
 pip install streamlit
 
-Run the chatbot application:
+  Run the chatbot application:
 
-streamlit run chatbot.py
+streamlit run chatbot_streamlit.py
 
 After running the command, Streamlit will open the chatbot in your web browser.
 
