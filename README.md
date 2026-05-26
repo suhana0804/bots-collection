@@ -60,18 +60,6 @@ The chatbot stores conversation history during the session and displays response
 - Python
 - Streamlit
 
-## How to Run
-
-  Install Streamlit:
-
-pip install streamlit
-
-  Run the chatbot application:
-
-streamlit run chatbot_streamlit.py
-
-After running the command, Streamlit will open the chatbot in your web browser.
-
 # Quiz Bot
 
 A GUI based quiz chatbot that asks multiple-choice questions and calculates the final score.
@@ -128,6 +116,7 @@ The project demonstrates concepts such as:
 - `quiz_bot.py`
 - `Chatbot.py`
 - `intents.json`
+- chatbot_streamlit.py
 
 ## How to Run
 
@@ -138,6 +127,18 @@ python filename.py
 Example:
 
 python Chatbot.py
+
+Run any Python file involving streamlit:
+
+ Install Streamlit:
+
+pip install streamlit
+
+  Run the chatbot application:
+
+streamlit run chatbot_streamlit.py
+
+After running the command, Streamlit will open the chatbot in your web browser.
 
 ## What I Learned
 
